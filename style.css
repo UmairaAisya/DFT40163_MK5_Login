@@ -1,1 +1,43 @@
-
+/* Styling the login form container */
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  /* Styling form elements */
+  .login-container input[type="text"],
+  .login-container input[type="password"],
+  .login-container input[type="submit"] {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Styling the submit button */
+  .login-container input[type="submit"] {
+    background-color: #413e3e;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 298px;
+  }
+  
+  .login-container input[type="submit"]:hover {
+    background-color: #3a3f46;
+  }
+  
+  /* Styling for links */
+  .login-container a {
+    color: #76797c;
+    text-decoration: none;
+  }
+ 
+  .link {
+    text-decoration: underline;
+  }
